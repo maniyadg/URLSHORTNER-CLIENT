@@ -27,10 +27,10 @@ alert(`https://url-shortner-t9jt.onrender.com/${user.data.shoten}`)
   return (
     <div className="card" style={{width: '500px' , height:'auto',}}>
             <h3 className="header">Forget Password</h3>
-      <div className="forget-img">
+      <div className="img">
         <img
         
-        //   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZPYMrQqi67tbub6JCWygHh0tou-WeG4LY2w&usqp=CAU"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZPYMrQqi67tbub6JCWygHh0tou-WeG4LY2w&usqp=CAU"
           className="card-img-top real-img"
           alt="login-img"
         />
