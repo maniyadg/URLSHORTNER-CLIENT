@@ -14,9 +14,7 @@ function Forget() {
     onSubmit: async (values) => {
            try {
         const user = await axios.post(`${config.api}/forget`, values);
-        if (user.data.message === "success") {
           alert("E-MAIL Sent Check Your E-mail")
-        }
       } catch (error) {
         alert(error.response.data.message);
       }
@@ -25,7 +23,7 @@ function Forget() {
   return (
     <div className="card" style={{width: '500px' , height:'auto',}}>
             <h3 className="header">Forget Password</h3>
-      <div className="forget-img">
+      <div className="img">
         <img
         
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZPYMrQqi67tbub6JCWygHh0tou-WeG4LY2w&usqp=CAU"
