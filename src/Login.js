@@ -17,9 +17,9 @@ function Login() {
            try {
         const user = await axios.post(`${config.api}/user/login`, values);
         localStorage.setItem("myapp",user.data.token)
-        if (user.data.message === "success") {
+        
           navigate("/urlshorten");
-        }
+        
       } catch (error) {
         alert(error.response.data.message);
       }
