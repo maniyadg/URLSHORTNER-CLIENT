@@ -18,7 +18,7 @@ function Register() {
       try {
         const user = await axios.post(`${config.api}/user/register`, values);
 if(user.data.message === "success"){
-navigate('/login')
+navigate('/')
 }
        
       } catch (error) {
