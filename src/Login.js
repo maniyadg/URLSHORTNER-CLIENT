@@ -28,7 +28,7 @@ function Login() {
   return (
     <div className="card" style={{width: '500px' , height:'auto',}}>
             <h3 className="header">Sign-in</h3>
-      <div className="login-img">
+      <div className="img">
         <img
         
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSGTNzhBhL1vPCENQ7IfSYjQUN_NHsalDSFQ&usqp=CAU"
