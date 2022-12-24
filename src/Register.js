@@ -17,9 +17,9 @@ function Register() {
     onSubmit: async (values) => {
       try {
         const user = await axios.post(`${config.api}/user/register`, values);
-if(user.data.message === "success"){
+
 navigate('/')
-}
+
        
       } catch (error) {
         alert(error.response.data.message);
