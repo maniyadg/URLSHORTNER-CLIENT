@@ -78,7 +78,7 @@ navigate('/login')
               value={"Submit"}
             />
           </div>
-          <Link to="/register" className="option-list">
+          <Link to="/login" className="option-list">
             Sign-in
           </Link>
         </div>
