@@ -29,7 +29,7 @@ navigate('/')
   return (
     <div className="card" style={{ width: "500px", height: "auto" }}>
       <h3 className="header">Sign-up</h3>
-      <div className="reg-img">
+      <div className="img">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xX0xkbmEMSXYYYZ-w3lB2qVAXQwfhEYrnw&usqp=CAU"
           className="card-img-top real-img"
