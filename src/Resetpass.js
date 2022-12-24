@@ -32,7 +32,7 @@ function Resetpass() {
         
           src="reset-password/:id/:token"
           className="card-img-top real-img"
-          alt="login-img"
+          alt="img"
         />
       </div>
       <form onSubmit={loginForm.handleSubmit}>
